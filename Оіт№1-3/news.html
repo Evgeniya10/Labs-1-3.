@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Новини</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Присняк Євгенія">
+    <meta name="description" content="Новини">
+    <meta name="keywords" content="Новини про колектив “Mățișor”">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Новини та опитульник</h1>
+        <a name="button.up">
+        <nav>
+            <ul>
+                <li>
+                  <a href="index.html">Головне</a>
+                </li>
+                <li>
+                  <a href="about.html">Про нас</a>
+                </li>
+                <li>
+                  <a href="news.html">Новини</a>
+                </li>
+              </li>
+              <li class="search-container">
+                <input type="text" id="search" placeholder="Пошук" class="search-input">
+                <button type="button" class="search-button">Пошук</button>
+              </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Новини</h1>
+    <p>20 липня 1990 року наш фольклорний колектив "Mățișor" вперше взяв участь у "Буковинських зустрічах", які проходили у багатьох європейських містах, зокрема колектив виступав у Польщі, пізніше в Україні у місті Чернівці, а також у містах Румунії, Угорщини та Польщі.</p>
+    <img src="Л.р.ОІТ8.jpg" width="700px height="auto" alt="Фото колектива">
+    <h2>Опитульник</h2>
+    <form action="#" method="post">
+        <label for="email">Електронна пошта:</label>
+        <input type="email" id="email" name="email" placeholder="Введіть вашу електронну пошту" required>
+        <br>
+
+        <label for="login">Логін:</label>
+        <input type="text" id="login" name="login" placeholder="Введіть ваш логін" required>
+
+        <br>
+
+        <label for="message">Напишіть текстове повідомлення, щоб приєднатись:</label>
+        <textarea id="message" name="message" placeholder="Введіть ваше повідомлення"></textarea>
+
+        <br>
+
+        <label for="name">Ваша стать:</label>
+        <select id="name" name="name">
+            <option value="default" selected>Оберіть стать</option>
+            <option value="Ж">Жіноча</option>
+            <option value="Ч">Чоловіча</option>
+            <option value="З">Змішана</option>
+        </select>
+
+        <br>
+
+        <fieldset>
+            <legend>До якої групи ви бажаєте приєднатись:</legend>
+            <input type="radio" id="option1" name="group1" value="option1">
+            <label for="option1">Жіноча</label>
+
+            <input type="radio" id="option2" name="group1" value="option2">
+            <label for="option2">Чоловіча</label>
+
+            <input type="radio" id="option3" name="group1" value="option3">
+            <label for="option3">Загальна</label>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Відправити">
+        <input type="reset" value="Очистити">
+    </form>
+    <a href="#button.up" class="scroll-button">Вверх</a>
+    <footer>
+        <p>© 2023 Цей сайт - лабораторна робота. Усі зображення взяті з Інтернету, колектив "Mărțișor" використовується лише для цієї лабораторної роботи.</p>
+    </footer>
+</body>
+</html>

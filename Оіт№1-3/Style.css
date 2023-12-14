@@ -1,0 +1,104 @@
+header {
+    background-color: yellow;
+    color: black;
+    padding: 10px 0;
+    text-align: left;
+}
+header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button[type="submit"] {
+    background-color: #333;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: yellow;
+}
+
+footer {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.scroll-button:hover {
+    background-color: brown;
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.image-text:hover {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+img:hover {
+    opacity: 0.8;
+}
